@@ -1,0 +1,88 @@
+body, p{
+   margin: 0;
+   paddi
+}
+
+nav{display: flex;
+   justify-content: space-around;
+   width: 15%;
+   margin-left: auto;
+   padding: 2em;
+
+}
+a{
+color: black;
+text-decoration: none;
+}
+nav img{
+   height: 20px;
+}
+a:hover{
+   text-decoration: underline;
+
+}
+main{
+   width: 50%;
+   margin: auto;
+   text-align: center;
+}
+
+main img{
+   width: 40%;
+   margin-bottom: 1em;
+   margin-top: 2em;
+}
+input{
+   width: 80%;
+   padding: 1em;
+   text-align:left ;
+   border-radius: 30px;
+   border: 1px solid gray;
+   }
+
+
+.btn_container{
+   margin-top: 1em;
+}
+.btn_container button{
+   padding: 1em;
+   border: none;
+}
+.btn_container p{
+   display:flex;
+   justify-content: space-around;
+   width: 60%;
+   margin:auto;
+   margin-top: 1em;
+}
+.btn_container p a{
+   font-size: 15px;
+   color: rgba(24, 24, 236, 0.979);
+   text-decoration: none;
+}
+footer{
+
+   background-color: rgb(240, 239, 239);
+   position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 75px;
+}
+.footer_top{
+   padding: 1em;
+}
+.footer_buttom{
+   padding: 1em;
+   display: flex;
+   justify-content: space-between;
+   border-top: 1pm solid gray;
+   
+}
+.footer_left a{
+   margin-right: 1em;
+}
+.footer_right a{
+   margin-right: 1em;
+}
